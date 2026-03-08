@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AskDocs AI</title>
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin: 40px;
+background:#f6f8fa;
+}
+
+h1{
+color:#24292e;
+}
+
+section{
+margin-top:30px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+}
+
+.box{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AskDocs AI</h1>
+<p>AI-powered document question answering using Retrieval-Augmented Generation.</p>
+
+<div class="box">
+
+<section>
+<h2>About</h2>
+<p>
+AskDocs AI allows users to upload PDF documents and ask questions about their content.
+The system processes documents into embeddings, stores them in a vector database,
+retrieves relevant information, and generates answers using a language model.
+</p>
+</section>
+
+<section>
+<h2>Features</h2>
+<ul>
+<li>Upload PDF documents</li>
+<li>Ask questions about document content</li>
+<li>Semantic search using embeddings</li>
+<li>Source citations with page references</li>
+</ul>
+</section>
+
+<section>
+<h2>Tech Stack</h2>
+<ul>
+<li>Python</li>
+<li>LangChain</li>
+<li>OpenAI API</li>
+<li>ChromaDB</li>
+<li>Streamlit</li>
+</ul>
+</section>
+
+<section>
+<h2>Architecture</h2>
+<p>
+PDF → Chunking → Embeddings → Vector Database → Retrieval → LLM Answer
+</p>
+</section>
+
+<section>
+<h2>Project Repository</h2>
+<p>
+<a href="https://github.com/shalinire/askdocs-ai">View on GitHub</a>
+</p>
+</section>
+
+</div>
+
+</div>
+
+</body>
+</html>
