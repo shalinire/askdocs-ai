@@ -1,8 +1,9 @@
-streamlit
+streamlit==1.32.2
 langchain==0.1.20
-langchain-openai
-langchain-community
-chromadb
-pypdf
-python-dotenv
-langchain-text-splitters
+langchain-openai==0.1.7
+langchain-community==0.0.38
+chromadb==0.4.24
+pypdf==4.2.0
+python-dotenv==1.0.1
+tiktoken==0.7.0
+pydantic==1.10.13
