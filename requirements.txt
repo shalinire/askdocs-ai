@@ -7,3 +7,4 @@ pypdf==4.2.0
 tiktoken==0.6.0
 python-dotenv==1.0.1
 pydantic==1.10.13
+numpy==1.26.3
